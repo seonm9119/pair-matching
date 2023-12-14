@@ -7,6 +7,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
 internal class ApplicationTest : NsTest() {
+
     @Test
     fun `짝수_인원_페어_매칭`() {
         assertShuffleTest(
@@ -25,6 +26,8 @@ internal class ApplicationTest : NsTest() {
             assertThat(output()).contains(ERROR_MESSAGE)
         }
     }
+
+
 
     public override fun runMain() {
         main()
