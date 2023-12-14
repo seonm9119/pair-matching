@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pairmatching.ApplicationTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-12-14T07:34:08" hostname="BOOK-GHM0I3DLKI" time="1.734">
+  <properties/>
+  <testcase name="짝수_인원_페어_매칭()" classname="pairmatching.ApplicationTest" time="1.698"/>
+  <testcase name="없는_미션에_대한_예외_처리()" classname="pairmatching.ApplicationTest" time="0.034">
+    <failure message="java.lang.AssertionError: &#13;&#10;Expecting actual:&#13;&#10;  &quot;기능을 선택하세요.&#10;1. 페어 매칭&#10;2. 페어 조회&#10;3. 페어 초기화&#10;Q. 종료&#10;&#10;#############################################&#10;과정: 백엔드 | 프론트엔드&#10;미션:&#10;  - 레벨1: 자동차경주 | 로또 | 숫자야구게임&#10;  - 레벨2: 장바구니 | 결제 | 지하철노선도&#10;  - 레벨3: &#10;  - 레벨4: 성능개선 | 배포&#10;  - 레벨5: &#10;############################################&#10;과정, 레벨, 미션을 선택하세요.&#10;ex) 백엔드, 레벨1, 자동차경주&#10;&#10;페어 매칭 결과입니다.&#13;&#10;경태 : 현준&#13;&#10;백호 : 태섭&#13;&#10;치수 : 대남&#13;&#10;태웅 : 소연&#13;&#10;태산 : 대만&#13;&#10;용팔 : 대협&#13;&#10;구식 : 준호&#13;&#10;덕규 : 한나&#13;&#10;호열 : 수겸&#13;&#10;달재 : 준섭&#13;&#10;&#13;&#10;기능을 선택하세요.&#10;1. 페어 매칭&#10;2. 페어 조회&#10;3. 페어 초기화&#10;Q. 종료&quot;&#13;&#10;to contain:&#13;&#10;  &quot;[ERROR]&quot; " type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting actual:
+  &quot;기능을 선택하세요.
+1. 페어 매칭
+2. 페어 조회
+3. 페어 초기화
+Q. 종료
+
+#############################################
+과정: 백엔드 | 프론트엔드
+미션:
+  - 레벨1: 자동차경주 | 로또 | 숫자야구게임
+  - 레벨2: 장바구니 | 결제 | 지하철노선도
+  - 레벨3: 
+  - 레벨4: 성능개선 | 배포
+  - 레벨5: 
+############################################
+과정, 레벨, 미션을 선택하세요.
+ex) 백엔드, 레벨1, 자동차경주
+
+페어 매칭 결과입니다.
+경태 : 현준
+백호 : 태섭
+치수 : 대남
+태웅 : 소연
+태산 : 대만
+용팔 : 대협
+구식 : 준호
+덕규 : 한나
+호열 : 수겸
+달재 : 준섭
+
+기능을 선택하세요.
+1. 페어 매칭
+2. 페어 조회
+3. 페어 초기화
+Q. 종료&quot;
+to contain:
+  &quot;[ERROR]&quot; 
+	at pairmatching.ApplicationTest.없는_미션에_대한_예외_처리$lambda$1(ApplicationTest.kt:28)
+	at org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$2(AssertTimeout.java:102)
+	at org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</failure>
+  </testcase>
+  <system-out><![CDATA[기능을 선택하세요.
+1. 페어 매칭
+2. 페어 조회
+3. 페어 초기화
+Q. 종료
+
+#############################################
+과정: 백엔드 | 프론트엔드
+미션:
+  - 레벨1: 자동차경주 | 로또 | 숫자야구게임
+  - 레벨2: 장바구니 | 결제 | 지하철노선도
+  - 레벨3: 
+  - 레벨4: 성능개선 | 배포
+  - 레벨5: 
+############################################
+과정, 레벨, 미션을 선택하세요.
+ex) 백엔드, 레벨1, 자동차경주
+
+페어 매칭 결과입니다.
+태웅 : 백호
+치수 : 태섭
+
+기능을 선택하세요.
+1. 페어 매칭
+2. 페어 조회
+3. 페어 초기화
+Q. 종료
+기능을 선택하세요.
+1. 페어 매칭
+2. 페어 조회
+3. 페어 초기화
+Q. 종료
+
+#############################################
+과정: 백엔드 | 프론트엔드
+미션:
+  - 레벨1: 자동차경주 | 로또 | 숫자야구게임
+  - 레벨2: 장바구니 | 결제 | 지하철노선도
+  - 레벨3: 
+  - 레벨4: 성능개선 | 배포
+  - 레벨5: 
+############################################
+과정, 레벨, 미션을 선택하세요.
+ex) 백엔드, 레벨1, 자동차경주
+
+페어 매칭 결과입니다.
+경태 : 현준
+백호 : 태섭
+치수 : 대남
+태웅 : 소연
+태산 : 대만
+용팔 : 대협
+구식 : 준호
+덕규 : 한나
+호열 : 수겸
+달재 : 준섭
+
+기능을 선택하세요.
+1. 페어 매칭
+2. 페어 조회
+3. 페어 초기화
+Q. 종료
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
