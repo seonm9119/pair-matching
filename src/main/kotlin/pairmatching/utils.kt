@@ -46,6 +46,38 @@ fun areAllSublistDifferent(a: List<List<String>>, b: MutableList<List<String>>):
 }
 
 
+fun checkCourse(course: String) {
+    if (course !in listOf("백엔드", "프론트엔드"))
+        throw IllegalArgumentException("[ERROR] 없는 과정입니다.")
+}
+
+fun checkLevel(level: String){
+    if (Level.entries.find { it.levelName == level } == null)
+        throw IllegalArgumentException("[ERROR] 없는 레벨입니다.")
+}
+
+fun checkMission(mission: String, level: String){
+    if (mission !in Level.entries.find { it.levelName == level }!!.missions)
+        throw IllegalArgumentException("[ERROR] 없는 미션입니다.")
+}
+
+fun checkValidation(inputs: List<String>){
+
+    val (course, level, mission) = inputs
+
+    try {
+        checkCourse(course)
+        checkLevel(level)
+        checkMission(mission,level)
+
+    } catch (e:IllegalArgumentException){
+        println(e.message)
+    }
+
+
+}
+
+
 fun runMatching(inputs: List<String>){
 
     val (course, level, mission) = inputs
@@ -107,6 +139,8 @@ fun reMatching(inputs: List<String>){
             print("\n과정, 레벨, 미션을 선택하세요.\n" +
                     "ex) 백엔드, 레벨1, 자동차경주\n")
             val reInputs = readLine().split(',').map{ it.trim()}
+            checkValidation(reInputs)
+
             if (validateMatching(reInputs)){
                 reMatching(reInputs)
             } else runMatching(inputs)
@@ -133,6 +167,8 @@ fun matching(){
             "ex) 백엔드, 레벨1, 자동차경주\n")
 
     val inputs = readLine().split(',').map{ it.trim()}
+
+    checkValidation(inputs)
 
     if (validateMatching(inputs)){
         reMatching(inputs)

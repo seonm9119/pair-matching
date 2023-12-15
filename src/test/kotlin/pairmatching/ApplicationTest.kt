@@ -19,6 +19,7 @@ internal class ApplicationTest : NsTest() {
         )
     }
 
+
     @Test
     fun `없는_미션에_대한_예외_처리`() {
         assertSimpleTest {
@@ -26,6 +27,8 @@ internal class ApplicationTest : NsTest() {
             assertThat(output()).contains(ERROR_MESSAGE)
         }
     }
+
+
 
 
 
