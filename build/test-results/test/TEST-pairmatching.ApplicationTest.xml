@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pairmatching.ApplicationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-15T23:58:37" hostname="BOOK-GHM0I3DLKI" time="2.107">
+<testsuite name="pairmatching.ApplicationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-16T01:26:36" hostname="BOOK-GHM0I3DLKI" time="1.904">
   <properties/>
-  <testcase name="짝수_인원_페어_매칭()" classname="pairmatching.ApplicationTest" time="2.091"/>
-  <testcase name="없는_미션에_대한_예외_처리()" classname="pairmatching.ApplicationTest" time="0.015"/>
+  <testcase name="짝수_인원_페어_매칭()" classname="pairmatching.ApplicationTest" time="1.863"/>
+  <testcase name="없는_미션에_대한_예외_처리()" classname="pairmatching.ApplicationTest" time="0.03"/>
   <system-out><![CDATA[기능을 선택하세요.
 1. 페어 매칭
 2. 페어 조회
@@ -48,24 +48,6 @@ Q. 종료
 과정, 레벨, 미션을 선택하세요.
 ex) 백엔드, 레벨1, 자동차경주
 [ERROR] 없는 미션입니다.
-
-페어 매칭 결과입니다.
-준섭 : 대남
-태섭 : 경태
-소연 : 태산
-덕규 : 백호
-용팔 : 달재
-준호 : 태웅
-한나 : 현준
-치수 : 대만
-호열 : 수겸
-구식 : 대협
-
-기능을 선택하세요.
-1. 페어 매칭
-2. 페어 조회
-3. 페어 초기화
-Q. 종료
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
