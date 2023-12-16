@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pairmatching.ApplicationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-16T01:26:36" hostname="BOOK-GHM0I3DLKI" time="1.904">
+<testsuite name="pairmatching.ApplicationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-16T01:46:13" hostname="BOOK-GHM0I3DLKI" time="2.432">
   <properties/>
-  <testcase name="짝수_인원_페어_매칭()" classname="pairmatching.ApplicationTest" time="1.863"/>
-  <testcase name="없는_미션에_대한_예외_처리()" classname="pairmatching.ApplicationTest" time="0.03"/>
+  <testcase name="짝수_인원_페어_매칭()" classname="pairmatching.ApplicationTest" time="2.402"/>
+  <testcase name="없는_미션에_대한_예외_처리()" classname="pairmatching.ApplicationTest" time="0.024"/>
   <system-out><![CDATA[기능을 선택하세요.
 1. 페어 매칭
 2. 페어 조회
